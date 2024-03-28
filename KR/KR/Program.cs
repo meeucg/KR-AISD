@@ -24,6 +24,8 @@ class Program
         Console.WriteLine(a.IsLooping(3));
         Console.WriteLine(a.IsLooping(4));
         Console.WriteLine(a.IsLooping(5));
+        //не работает
+
     }
 
     static ValueTuple<int, int> Sequence(int[] arr)

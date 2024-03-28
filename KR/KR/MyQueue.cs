@@ -4,6 +4,8 @@ public class MyQueue<T>
 {
     private Node1<T>? _first;
     private Node1<T>? _last;
+    public Node1<T>? Last { get => _last; }
+
     public T Current
     {
         get
